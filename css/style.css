@@ -1,0 +1,267 @@
+html {
+	width: 100%;
+}
+
+body {
+	font-family: 'Roboto';
+	color: #888585;
+	background-color: #000000;
+}
+
+p {
+	color: #888585;
+}
+
+header{
+	background-color: #000000;
+	position: fixed;
+	width: 100%;
+	z-index: 9999999999999999999999;
+}
+
+.navbar{
+	padding: 20px 20px;
+}
+
+.navbar .nav-item a {
+	color: #ffffff !important;
+}
+
+.hero {
+	background-color: #383737;
+	text-align: center;
+	background-image: url("../img/img_1.jpg");
+	background-repeat: no-repeat;
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+}
+
+.profile {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.bio {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	font-size: 20px;
+	padding:  0 20px 0 20px;
+	text-align: justify;
+	flex-wrap: wrap;
+}
+
+
+.service_img {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Gallery Section
+--------------------------------------------------------------*/
+
+.gallery {
+	background-color: #000000;
+}
+
+.gallery .gallery-item {
+	position: relative;
+	overflow: hidden;
+	border-radius: 10px;
+	height: 250px !important;
+  }
+  
+  .gallery .gallery-item img {
+	transition: 0.3s;
+	height: 250px !important;
+	object-fit: cover;
+	width: 100%;
+  }
+  
+  .gallery .gallery-links {
+	position: absolute;
+	inset: 0;
+	opacity: 0;
+	transition: all ease-in-out 0.3s;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 3;
+  }
+  
+  .gallery .gallery-links .preview-link,
+  .gallery .gallery-links .details-link {
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.5);
+	transition: 0.3s;
+	line-height: 1.2;
+	margin: 30px 8px 0 8px;
+  }
+  
+  .gallery .gallery-links .preview-link:hover,
+  .gallery .gallery-links .details-link:hover {
+	color: #ffffff;
+  }
+  
+  .gallery .gallery-links .details-link {
+	font-size: 30px;
+	line-height: 0;
+  }
+  
+  .gallery .gallery-item:hover .gallery-links {
+	opacity: 1;
+  }
+  
+  .gallery .gallery-item:hover .preview-link,
+  .gallery .gallery-item:hover .details-link {
+	margin-top: 0;
+  }
+  
+  .gallery .gallery-item:hover img {
+	transform: scale(1.1);
+  }
+  
+  .glightbox-clean .gslide-description {
+	background: #272727;
+  }
+  
+  .glightbox-clean .gslide-title {
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0;
+  }
+
+  .contact .info-wrap {
+	margin-bottom: 30px;
+  }
+  
+  .contact .info-item i {
+	font-size: 20px;
+	color: var(--accent-color);
+	width: 56px;
+	height: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+	border-radius: 50%;
+	border: 1px solid color-mix(in srgb, var(--accent-color), transparent 40%);
+	margin-right: 15px;
+  }
+  
+  .contact .info-item h3 {
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 0 5px 0;
+	font-family: var(--default-font);
+  }
+  
+  .contact .info-item p {
+	padding: 0;
+	margin-bottom: 0;
+	font-size: 14px;
+  }
+  
+  .contact .info-item:hover i {
+	background: var(--accent-color);
+	color: var(--contrast-color);
+  }
+  
+  @media (max-width: 575px) {
+	.contact .php-email-form {
+	  padding: 20px;
+	}
+  }
+  
+  .contact .php-email-form input[type=text],
+  .contact .php-email-form input[type=email],
+  .contact .php-email-form textarea {
+	font-size: 14px;
+	padding: 10px 15px;
+	box-shadow: none;
+	border-radius: 0;
+	color: var(--default-color);
+	background-color: var(--surface-color);
+	border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  }
+  
+  .contact .php-email-form input[type=text]:focus,
+  .contact .php-email-form input[type=email]:focus,
+  .contact .php-email-form textarea:focus {
+	border-color: var(--accent-color);
+  }
+  
+  .contact .php-email-form input[type=text]::placeholder,
+  .contact .php-email-form input[type=email]::placeholder,
+  .contact .php-email-form textarea::placeholder {
+	color: color-mix(in srgb, var(--default-color), transparent 70%);
+  }
+  
+  .contact .php-email-form button[type=submit] {
+	color: var(--default-color);
+	background: var(--accent-color);
+	font-weight: 400;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 14px 40px;
+	border: 0;
+	border-radius: 4px;
+	transition: 0.5s;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+  }
+  
+  .contact .php-email-form button[type=submit]:hover {
+	background-color: color-mix(in srgb, var(--accent-color) 90%, white 10%);
+  }
+
+.titulo {
+	color: #3c3838;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: 'Segoe UI', sans-serif;
+	padding-bottom: 20px;
+}
+
+.numbers {
+	color: #e6e8eb;
+}
+
+.section_title {
+	background-color: #41464b;
+	height: 86px;
+	width: 100% !important;
+}
+
+.section {
+	padding: 60px 0;
+}
+
+.coaches {
+	background-color: #f3f3f3;
+}
+
+footer {
+	background-color: #383737;
+	color: #888585;
+	text-align: center;
+	height: 150px;
+}
+
+footer .h-150 {
+	height: 150px;
+}
+
+footer .text-color {
+	color: #888585;
+}
+
+
+
+
+
+
+
+
+
+
+
