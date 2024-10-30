@@ -1,0 +1,68 @@
+#hero {
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	text-align: center;
+	padding-top: 20%;
+	padding-bottom: 20%;
+}
+
+#hero h1{
+	font-family: "Shojumaru", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #f49f28;
+}
+
+#hero h3{
+	font-family: "Nanum Pen Script", cursive;
+  	font-weight: 400;
+  	font-style: normal;
+}
+header{
+    position: absolute;
+	width: 100%;
+	padding-top: 20px;
+}
+.halloween{
+    text-align: center;
+}
+.icon{
+    width: 100px;
+    height: auto;
+}
+.columnas{
+    text-align: center;
+    padding: 30px 0px;
+}
+.pumpkin{
+    width: 50px;
+    height: auto;
+}
+.final{
+    text-align: center;
+    background: rgb(255,135,0);
+background: linear-gradient(90deg, rgba(255,135,0,1) 6%, rgba(255,179,0,1) 100%);
+}
+.imgfooter{
+    width: 230px;
+    height: auto;
+}
+.faq{
+    background-color: #f9faf2;
+}
+.titulo{
+    font-family: "Shojumaru", system-ui;
+    font-size: medium;
+}
+.title{
+    font-family: "Nanum Pen Script", serif;
+}
+.subtitle{
+    font-family: "Nanum Pen Script", serif;
+    font-size: 30px;   
+}
+.parrafo{
+    color: #999 ;
+}
